@@ -1,16 +1,34 @@
-# React + Vite
+# React Entrega de Ejercicios 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Relación de 9 ejercicios prácticos migrados de JavaScript vanilla a React.
 
-Currently, two official plugins are available:
+## 📂 Estructura
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Cada ejercicio está en su propio fichero separado:
 
-## React Compiler
+- `src/exercises/Ejercicio1.jsx` — Cambiador de Color de Fondo
+- `src/exercises/Ejercicio2.jsx` — Contador de Clics
+- `src/exercises/Ejercicio3.jsx` — Lista Dinámica
+- `src/exercises/Ejercicio4.jsx` — Filtro de Búsqueda en Tiempo Real
+- `src/exercises/Ejercicio5.jsx` — Calculadora Sencilla
+- `src/exercises/Ejercicio6.jsx` — Temporizador
+- `src/exercises/Ejercicio7.jsx` — Generador de Contraseñas
+- `src/exercises/Ejercicio8.jsx` — Contador de Palabras y Caracteres
+- `src/exercises/Ejercicio9.jsx` — Lista de Tareas con LocalStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Desarrollo local
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Abre `http://localhost:5173`
+
+## 🌐 GitHub Pages
+
+El proyecto se despliega automáticamente a GitHub Pages mediante GitHub Actions.
+
+URL pública: `https://baena15.github.io/react-entrega-ejercicios-1/`
+
+> Si el nombre del repositorio cambia, actualiza la propiedad `base` en `vite.config.js`.
